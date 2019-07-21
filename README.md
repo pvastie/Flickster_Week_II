@@ -21,7 +21,7 @@ Flickster Movie App Week2
 ### App Walkthough GIF
 
 
-<img src="walthough.gif" width=250><br>
+<img src="walthrough.gif" width=250><br>
 
 ### Notes
 
