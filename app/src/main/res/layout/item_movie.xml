@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:background="@drawable/corner"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="110dp"
+        android:layout_height="140dp"
+        android:background="@drawable/corner"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@string/todo"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivPoster"
+        android:background="@drawable/corner"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="20dp"
+        android:text="@string/textview"
+        android:textSize="18sp"
+        tools:text="Spider-Man: Far from Home" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:background="@drawable/corner"
+        android:textColor="@color/colorWrite"
+        android:layout_below="@id/tvTitle"
+        android:layout_toRightOf="@id/ivPoster"
+        tools:text="Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent" />
+</RelativeLayout>
